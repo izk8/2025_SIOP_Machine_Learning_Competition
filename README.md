@@ -51,4 +51,4 @@ A honesty detection system was implemented to identify unrealistic or fake respo
 - Briana Squires
 
 ## How to cite the competition and the data
-Hernandez, I., Thompson, I., Marin, S., & Squires, B. (2025, April). The 2025 SIOP Machine Learning Competition [Alternative Session]. Society for Industrial and Organizational Psychology Annual Conference, Denver, CO, United States. 
+Hernandez, I., Thompson, I., Marin, S., & Squires, B. (2025, April). The 2025 SIOP Machine Learning Competition [Alternative Session]. Society for Industrial and Organizational Psychology Annual Conference, Denver, CO, United States.
