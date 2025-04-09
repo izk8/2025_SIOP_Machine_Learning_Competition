@@ -7,6 +7,13 @@
 *.pkl
 *.h5
 
+# Contact information - privacy protection
+CONTACTS.md
+email_*.txt
+email_*.csv
+*contacts*.csv
+*contacts*.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
