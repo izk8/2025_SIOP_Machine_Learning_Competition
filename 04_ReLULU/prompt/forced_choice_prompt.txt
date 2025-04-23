@@ -1,0 +1,31 @@
+Given a <job_description> and a list of <personality_pairs>, evaluate which personality described is better suited for the job for each pair.
+
+<job_description> contains company information, the job role title, and the advertisement for the job.
+<personality_pairs> contains pairs of personality descriptions.
+
+The personality pair list will be provided in the following format:
+
+{{
+    0: [personality_0_option_A, personality_0_option_B],
+    1: [personality_1_option_A, personality_1_option_B],,
+    ...
+}}
+
+If option A is more suited, return "optionA".
+If option B is more suited, return "optionB".
+If both or neither of the personality pair are suited, return "NEITHER".
+Use question index as keys.
+Make sure you evaluate all personality pairs from the list.
+Provide a rationale_positive on why you choose the option.
+Provide a rationale_negative on why you did not choose the other option.
+
+{format_instructions}
+Do not include any explanations, comments, or additional text outside of the JSON.
+
+<job_description>
+{job_description}
+</job_description>
+
+<personality_pairs>
+{personality_pairs}
+</personality_pairs>

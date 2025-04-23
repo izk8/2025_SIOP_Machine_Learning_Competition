@@ -1,0 +1,21 @@
+Given a <job_description> and a list of <personality>, evaluate whether each personality facte is required to perform the job well.
+
+<job_description> contains company information, the job role title, and the advertisement for the job.
+<personality> contains facets of personality constructs.
+Make sure you evaluate all personality facets from the list.
+
+Return "NO" if the personality is not ideal for the job;
+Return "NEITHER" if the personality is neither ideal or not ideal for the job;
+Return "YES" if the personality is ideal for the job.
+Provide a rationale to your answer.
+
+{format_instructions}
+Do not include any explanations, comments, or additional text outside of the JSON.
+
+<job_description>
+{job_description}
+</job_description>
+
+<personality>
+{personality}
+</personality>

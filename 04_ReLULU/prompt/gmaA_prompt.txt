@@ -1,0 +1,10 @@
+Given the following <word_list> of two (2) word phrases, identify one (1) most common English phrase.
+The phrase should be a noun.
+Give a rationale for choosing the selected word.
+
+{format_instructions}
+Do not include any explanations, comments, or additional text outside of the JSON.
+
+<word_list>
+{word_list}
+</word_list>
